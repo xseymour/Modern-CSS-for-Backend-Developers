@@ -21,7 +21,7 @@ var app = new Vue({
     	
     },
 	data: {
-		laracast_url: 'https://laracasts.com/series/modern-css-for-backend-developers/episodes/1',
+		laracast_url: 'https://laracasts.com/series/modern-css-for-backend-developers',
 	},
 	methods : {
 

@@ -6,13 +6,29 @@
         <title>Modern CSS for Backend Developers</title>
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <style type="text/css">body {padding-top: 40px !important}</style>
+            
+        {{-- Google font Open Sans --}}
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
     <body>
-        <div id="app" class="container">
-            <a :href="laracast_url"  target="_blank">Episode List</a>
-            <br><br>
-            <example></example>
+
+        <div id="app">
+            <header>
+                <div class="container">
+                    <div class='header-top'>
+                        <h1>XCasts</h1>
+                        <a href="#">Sign In</a>
+                    </div>
+                        
+                    <nav>
+                        <a :href="laracast_url" target="_blank">Episode List</a>
+                        <a href="#">Catalog</a>
+                        <a href="#">Series</a>
+                        <a href="#">Podcast</a>
+                        <a href="#">Discussions</a>
+                    </nav>  
+                </div>
+            </header>
         </div>
 
         {{-- Scripts --}}
