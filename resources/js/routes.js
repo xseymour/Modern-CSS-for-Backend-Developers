@@ -1,6 +1,8 @@
 import NotFound from './components/NotFound.vue';
-import Episode1and2 from './components/Episode1and2';
+import Episode1 from './components/Episode1';
+import Episode2 from './components/Episode2';
 import Episode3 from './components/Episode3';
+import Episode4 from './components/Episode4';
 
 export default {
 
@@ -16,11 +18,19 @@ export default {
 		},
         {
             path: '/',
-            component: Episode1and2
+            component: Episode1
+        },
+        {
+            path: '/episode-2',
+            component: Episode2
         },
         {
             path: '/episode-3',
             component: Episode3
+        },
+        {
+            path: '/episode-4',
+            component: Episode4
         },
 
 	]

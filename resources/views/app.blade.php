@@ -26,10 +26,16 @@
 
                         <ul class="list-reset">
                             <li class="text-sm leading-40" >
-                                <router-link to="/" exact>Episode 1 and 2</router-link>
+                                <router-link to="/" exact>Episode 1</router-link>
+                            </li>
+                            <li class="text-sm leading-40">
+                                <router-link to="/episode-2">Episode 2</router-link>
                             </li>
                             <li class="text-sm leading-40">
                                 <router-link to="/episode-3">Episode 3</router-link>
+                            </li>
+                            <li class="text-sm leading-40">
+                                <router-link to="/episode-4">Episode 4</router-link>
                             </li>
                         </ul>
                     </section>

@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-4">Episode 3</h1>
+        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-4">Workshop - Card Design</h1>
 
         <div class="card-container flex items-center justify-center">
 
