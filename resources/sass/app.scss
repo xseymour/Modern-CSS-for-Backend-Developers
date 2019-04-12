@@ -71,12 +71,26 @@ a {
 	color: #222222;
 }
 
-a:hover {
+nav a:hover {
+	text-decoration: underline;
+}
+
+main a:hover{
+	text-decoration: underline;
+	text-decoration-color: #ccc;
+
+	background: linear-gradient(to right,#ff8a00,#da1b60);
+	background-clip: text;
+	color: transparent;
+}
+
+a:hover > nav {
 	text-decoration: underline;
 }
 
 .app-header {
-	background-image: linear-gradient(to right, #a25b5b, #692e4c);
+	//background-image: linear-gradient(to right, #a25b5b, #692e4c);
+	background-image: linear-gradient(90deg,#5b79a2,#2e4469);
 	padding: 1.5em 2em;
 }
 

@@ -2442,6 +2442,10 @@ table {
   border-radius: 9999px;
 }
 
+.rounded-10px {
+  border-radius: 10px;
+}
+
 .rounded-t-none {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -2542,6 +2546,26 @@ table {
   border-bottom-left-radius: 9999px;
 }
 
+.rounded-t-10px {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rounded-r-10px {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.rounded-b-10px {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rounded-l-10px {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .rounded-tl-none {
   border-top-left-radius: 0;
 }
@@ -2620,6 +2644,22 @@ table {
 
 .rounded-bl-full {
   border-bottom-left-radius: 9999px;
+}
+
+.rounded-tl-10px {
+  border-top-left-radius: 10px;
+}
+
+.rounded-tr-10px {
+  border-top-right-radius: 10px;
+}
+
+.rounded-br-10px {
+  border-bottom-right-radius: 10px;
+}
+
+.rounded-bl-10px {
+  border-bottom-left-radius: 10px;
 }
 
 .border-solid {
@@ -3150,6 +3190,10 @@ table {
 
 .leading-40 {
   line-height: 40px;
+}
+
+.leading-zero {
+  line-height: 0;
 }
 
 .leading-none {
@@ -6195,12 +6239,26 @@ a {
   color: #222;
 }
 
-a:hover {
+nav a:hover {
+  text-decoration: underline;
+}
+
+main a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ccc;
+          text-decoration-color: #ccc;
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+a:hover > nav {
   text-decoration: underline;
 }
 
 .app-header {
-  background-image: linear-gradient(to right, #a25b5b, #692e4c);
+  background-image: linear-gradient(90deg, #5b79a2, #2e4469);
   padding: 1.5em 2em;
 }
 
@@ -8094,6 +8152,10 @@ a:hover {
     border-radius: 9999px;
   }
 
+  .sm\:rounded-10px {
+    border-radius: 10px;
+  }
+
   .sm\:rounded-t-none {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -8194,6 +8256,26 @@ a:hover {
     border-bottom-left-radius: 9999px;
   }
 
+  .sm\:rounded-t-10px {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .sm\:rounded-r-10px {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .sm\:rounded-b-10px {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .sm\:rounded-l-10px {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
   .sm\:rounded-tl-none {
     border-top-left-radius: 0;
   }
@@ -8272,6 +8354,22 @@ a:hover {
 
   .sm\:rounded-bl-full {
     border-bottom-left-radius: 9999px;
+  }
+
+  .sm\:rounded-tl-10px {
+    border-top-left-radius: 10px;
+  }
+
+  .sm\:rounded-tr-10px {
+    border-top-right-radius: 10px;
+  }
+
+  .sm\:rounded-br-10px {
+    border-bottom-right-radius: 10px;
+  }
+
+  .sm\:rounded-bl-10px {
+    border-bottom-left-radius: 10px;
   }
 
   .sm\:border-solid {
@@ -8802,6 +8900,10 @@ a:hover {
 
   .sm\:leading-40 {
     line-height: 40px;
+  }
+
+  .sm\:leading-zero {
+    line-height: 0;
   }
 
   .sm\:leading-none {
@@ -13672,6 +13774,10 @@ a:hover {
     border-radius: 9999px;
   }
 
+  .md\:rounded-10px {
+    border-radius: 10px;
+  }
+
   .md\:rounded-t-none {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -13772,6 +13878,26 @@ a:hover {
     border-bottom-left-radius: 9999px;
   }
 
+  .md\:rounded-t-10px {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .md\:rounded-r-10px {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .md\:rounded-b-10px {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .md\:rounded-l-10px {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
   .md\:rounded-tl-none {
     border-top-left-radius: 0;
   }
@@ -13850,6 +13976,22 @@ a:hover {
 
   .md\:rounded-bl-full {
     border-bottom-left-radius: 9999px;
+  }
+
+  .md\:rounded-tl-10px {
+    border-top-left-radius: 10px;
+  }
+
+  .md\:rounded-tr-10px {
+    border-top-right-radius: 10px;
+  }
+
+  .md\:rounded-br-10px {
+    border-bottom-right-radius: 10px;
+  }
+
+  .md\:rounded-bl-10px {
+    border-bottom-left-radius: 10px;
   }
 
   .md\:border-solid {
@@ -14380,6 +14522,10 @@ a:hover {
 
   .md\:leading-40 {
     line-height: 40px;
+  }
+
+  .md\:leading-zero {
+    line-height: 0;
   }
 
   .md\:leading-none {
@@ -19250,6 +19396,10 @@ a:hover {
     border-radius: 9999px;
   }
 
+  .lg\:rounded-10px {
+    border-radius: 10px;
+  }
+
   .lg\:rounded-t-none {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -19350,6 +19500,26 @@ a:hover {
     border-bottom-left-radius: 9999px;
   }
 
+  .lg\:rounded-t-10px {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .lg\:rounded-r-10px {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .lg\:rounded-b-10px {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .lg\:rounded-l-10px {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
   .lg\:rounded-tl-none {
     border-top-left-radius: 0;
   }
@@ -19428,6 +19598,22 @@ a:hover {
 
   .lg\:rounded-bl-full {
     border-bottom-left-radius: 9999px;
+  }
+
+  .lg\:rounded-tl-10px {
+    border-top-left-radius: 10px;
+  }
+
+  .lg\:rounded-tr-10px {
+    border-top-right-radius: 10px;
+  }
+
+  .lg\:rounded-br-10px {
+    border-bottom-right-radius: 10px;
+  }
+
+  .lg\:rounded-bl-10px {
+    border-bottom-left-radius: 10px;
   }
 
   .lg\:border-solid {
@@ -19958,6 +20144,10 @@ a:hover {
 
   .lg\:leading-40 {
     line-height: 40px;
+  }
+
+  .lg\:leading-zero {
+    line-height: 0;
   }
 
   .lg\:leading-none {
@@ -24828,6 +25018,10 @@ a:hover {
     border-radius: 9999px;
   }
 
+  .xl\:rounded-10px {
+    border-radius: 10px;
+  }
+
   .xl\:rounded-t-none {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -24928,6 +25122,26 @@ a:hover {
     border-bottom-left-radius: 9999px;
   }
 
+  .xl\:rounded-t-10px {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .xl\:rounded-r-10px {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .xl\:rounded-b-10px {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .xl\:rounded-l-10px {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
   .xl\:rounded-tl-none {
     border-top-left-radius: 0;
   }
@@ -25006,6 +25220,22 @@ a:hover {
 
   .xl\:rounded-bl-full {
     border-bottom-left-radius: 9999px;
+  }
+
+  .xl\:rounded-tl-10px {
+    border-top-left-radius: 10px;
+  }
+
+  .xl\:rounded-tr-10px {
+    border-top-right-radius: 10px;
+  }
+
+  .xl\:rounded-br-10px {
+    border-bottom-right-radius: 10px;
+  }
+
+  .xl\:rounded-bl-10px {
+    border-bottom-left-radius: 10px;
   }
 
   .xl\:border-solid {
@@ -25536,6 +25766,10 @@ a:hover {
 
   .xl\:leading-40 {
     line-height: 40px;
+  }
+
+  .xl\:leading-zero {
+    line-height: 0;
   }
 
   .xl\:leading-none {

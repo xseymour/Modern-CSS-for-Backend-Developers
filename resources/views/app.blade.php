@@ -19,14 +19,14 @@
                 </nav>
             </header>
 
-            <main class="flex mx-8">
+            <main id='main' class="flex mx-8">
                 <aside class="sidebar w-1/5">
                     <section class="mb-8">
                         <h5 class="uppercase font-bold mb-3">Episodes</h5>
 
                         <ul class="list-reset">
-                            <li class="text-sm leading-40">
-                                <router-link to="/">Episode 1 and 2</router-link>
+                            <li class="text-sm leading-40" >
+                                <router-link to="/" exact>Episode 1 and 2</router-link>
                             </li>
                             <li class="text-sm leading-40">
                                 <router-link to="/episode-3">Episode 3</router-link>

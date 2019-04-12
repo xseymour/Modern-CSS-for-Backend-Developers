@@ -307,6 +307,7 @@ module.exports = {
   */
 
   leading: {
+    'zero': 0,
     'none': 1,
     'tight': 1.25,
     'normal': 1.5,
@@ -457,6 +458,7 @@ module.exports = {
     default: '.25rem',
     'lg': '.5rem',
     'full': '9999px',
+    '10px': '10px',
   },
 
 

@@ -1,10 +1,13 @@
 const mix = require('laravel-mix');
 
+mix.disableSuccessNotifications();
+//mix.disableNotifications();
+
 require('laravel-mix-tailwind');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
-   .extract(['axios', 'bootstrap', 'jquery', 'lodash', 'popper.js', 'vue', 'bulma'])
+   .extract(['axios', 'jquery', 'lodash', 'popper.js', 'vue', 'bulma'])
     .tailwind()
    ;
 
